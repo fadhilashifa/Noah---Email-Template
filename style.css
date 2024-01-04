@@ -1,0 +1,216 @@
+body{
+    margin: 0 70px;
+    background-color: rgb(218, 218, 218);
+    font-family: 'Montserrat', sans-serif;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+}
+
+td{
+    padding: 0;
+}
+
+img{
+    border: 0;
+}
+
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.main{
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+}
+
+.logo{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    border-bottom: 3px solid rgb(145, 145, 145);
+}
+
+.logo img{
+    width: 120px;
+}
+
+#noah{
+    width: 100%;
+    max-width: 100%;
+}
+
+.content{
+    padding: 60px 60px;
+    text-align: left;
+}
+
+.content h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    background-color: #5C5C5B;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.content a:hover{
+    background-color: black;
+    color: white;
+}
+
+.three-columns{
+    text-align: left;
+    font-size: 0;
+    padding: 15px 0 25px;
+}
+
+.member{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+}
+
+.member .row{
+    padding: 60px 30px;
+    width: 100%;
+}
+
+.card-body h5{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-body p{
+    font-size: 13px;
+}
+
+.card-body .btn{
+    background-color: #5C5C5B;
+    color: white;
+    font-weight: 500;
+}
+
+.card-body .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.yokohama{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+}
+
+.yokohama .row{
+    padding: 60px 50px;
+    width: 100%;
+}
+
+.yokohama img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.content2{
+    padding: 20px 10px 20px 30px;
+    text-align: left;
+}
+
+.content2 h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sosmed ul{
+    flex: 1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sosmed ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.sosmed ul li a{
+    text-decoration: none;
+    color: #5C5C5B;
+    font-size: 26px;
+}
+
+.sosmed ul li a:hover{
+    color: black;
+}
+
+.sosmed{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    border-bottom: 2px solid rgb(145, 145, 145);
+    border-top: 2px solid rgb(145, 145, 145);
+}
+
+.footer{
+    width: 100%;
+    max-width: 90%;
+    background-color: white;
+    align-items: center;
+}
+
+.footer ul{
+    flex: 1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer ul li h4{
+    color: #5C5C5B;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #5C5C5B;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer ul li a:hover{
+    color: black;
+}
+
+.footer p{
+    font-size: 12px;
+}
